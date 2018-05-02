@@ -1,3 +1,21 @@
+body{
+	background-image: url("./img/bg.jpg");
+	background-repeat: no-repeat;
+	max-width: 100%
+	height: auto;
+}
+video{
+	z-index: -1000;
+	width: 100%;
+	height: auto;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
 #logo_h1{
 	color: #8eb572;
 	padding: 270px;
@@ -27,10 +45,21 @@
 #header{
 	color: white;
 	font-family: desc;
+	font-weight: bold;
 	text-align: left;
 	font-size: 70px;
 	padding-left: 100px;
 	padding-top: 50px;
+}
+#spe_header{
+	color: white;
+	font-family: desc;
+	font-weight: bold;
+	text-align: left;
+	font-size: 70px;
+	padding-left: 100px;
+	padding-top: 50px;
+	line-height: 70px;
 }
 #button:hover {
     color: white;
@@ -58,10 +87,6 @@
     src: url(./font/ekkamai.ttf);
 }
 
-img{
-	width:300px;
-	height:200px;
-}
 div.gallery{
 	display: inline-block;
 	margin-left: 107px;
@@ -89,7 +114,7 @@ div.container{
 div.desc{
 	padding:50px;
 	text-align: center;
-	font-size:18px;
+	font-size: 18px;
 	color: white;
 	font-family: desc;
 }
@@ -100,6 +125,7 @@ div.descr{
 	font-family: desc;
 	padding-left: 100px;
 	padding-top: 40px;
+	line-height: 18pt;
 }
 img.img{
 	position: absolute;
@@ -108,4 +134,27 @@ img.img{
 	width: 300px;
 	height: 200px;
 	border-radius: 8px;
+}
+
+
+div.our_gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 15%;
+}
+div.our_gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+div.describe {
+    padding: 15px;
+    text-align: center;
+    font-family: desc;
+    color: white;
+    line-height: 30px;
 }
